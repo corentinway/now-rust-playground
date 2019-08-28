@@ -1,0 +1,13 @@
+[package]
+name = "fromemail"
+version = "0.0.1"
+authors = ["Corentin Jechoux <corentinway@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+http = "0.1"
+now_lambda = "*"
+
+[[bin]]
+name = "fromemail"
+path = "src/main.rs"
